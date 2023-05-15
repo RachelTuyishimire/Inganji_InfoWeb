@@ -1,0 +1,29 @@
+@media(max-width:800px){
+    .footer{
+        display: grid;
+        grid-template-columns: 20px 20px;
+        gap: 2px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    
+    .NAVBAR{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .images{
+        display: grid;
+        gap: 3px;
+        grid-template-columns: auto auto;
+    }
+    .navbar{
+        
+            margin-left: 3%;
+            margin-top: -5%;
+            padding: 10px;
+        
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    
+}
