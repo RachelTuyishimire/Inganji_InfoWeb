@@ -7,7 +7,7 @@
     
 }
 .body{
-    background-color: #EBFBEE;
+    background-color: #e6fcf5;
     color:black;;
 }
 .navbar{
@@ -42,8 +42,9 @@ nav ul li a{
 .about{
     text-align: center;
     color:black;
-    background-color: #2b8a3e;
-    color:#88c794;
+    background-color: #c3fae8;
+    /* color:#88c794; */
+    color: #087f5b;
     border-radius: 20px;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -52,31 +53,77 @@ nav ul li a{
 
 }
 #pic{
-    width: 80%;
-    margin-left: 10%;
+    width: 85%;
+    margin-left: 5%;
     border-radius: 115px;
     
 }
 .us{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1.5fr);
 }
 .kijani{
-    color: black;
+    /* color: black; */
+    color: #087f5b;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 5%;
+  padding: 10%;
+  margin-left: -5%;
+  line-height: 33px;
+  margin-top: -4%;
   font-size: 25px;
-  background-color: #88c794;
-  border-radius: 15px;
-  opacity: 80%;
-  color: #087f5b;
+  font-weight: 900;
+  /*border-top-left-radius: 280px;
+  border-bottom-right-radius: 280px;
+  background-color: #c3fae8; */
+  /* border-radius: /15px; */
+  /* opacity: 80%; */
+  /* color: #087f5b; */
 }
 #hr{
     text-decoration: underline;
-    border-bottom: 3px solid black;
+    border-bottom: 1px solid #88c794;
 }
-
-
+.about span{
+    border-bottom: #88c794 dotted 5px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.f-v{
+    display: flex;
+    /* grid-template-columns: 300px 300px; */
+    gap: 5%;
+    /* width: 900px; */
+    /* height: 200px; */
+    padding-left: 20%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    background: url(in.jpg);
+    opacity: 70%;
+    color: black;
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+}
+/* #fruits{
+    /* background-image: url(fruits.jpeg); */
+    /* opacity: 70%; */
+    /* padding: 20% 30%; */
+    /* color: #e6fc/f5; */
+    /* font-weight: bolder; */
+    /* font-size: 25px; */
+    /* background-repeat: no-repeat; */
+    /* border-radius: 15px; */
+/* } */
+/* #veges{ */
+    /* background-image: url(vegetables.jpeg); */
+    /* opacity: 80%; */
+    /* padding: 20% 30%; */
+    /* color: #e6fcf5; */
+    /* font-weight: bolder; */
+    /* font-size: 25px; */
+    /* background-repeat: no-repeat; */
+    /* border-radius: 15px; */
+/* } */ */
 
 
     /* contact us */
@@ -90,11 +137,11 @@ nav ul li a{
 
 /* ****************OUR TEAM ********************* */
 
-#one{
+/* #one{
     width: 250px;
     height: 250px;
     border-radius: 50%;
-}
+} */
 #our {
     margin-top: 3%;
     margin-bottom: 4%;
@@ -103,11 +150,16 @@ nav ul li a{
     padding-bottom: 2%;
     font-weight: 900;
     font-size: 40px;
-    background-color: #2b8a3e;
-    color:#88c794;
+    background-color: #c3fae8;
+    color:#087f5b;
     border-radius: 20px;
 
     
+}
+.team div img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
 #our span{
     border-bottom: #88c794 dotted 4px;
@@ -124,17 +176,21 @@ nav ul li a{
 .team div p{
     font-weight: 900;
     font-size: 18px;
-    color: #2b8a3e;
+    color: #087f5b;
 }
 #intouch{
     text-align: center;
     font-weight: bolder;
+    color: #087f5b;
+    border-bottom:#88c794 solid 1px;
+    margin: 0 33% 4% 33%;
 }
 /*  */
 
 .form{
     margin-left: 34%;
     font-size: 20px;
+    color: #087f5b;
 }
 .form input{
     border-bottom: #2b8a3e dotted 3px;
@@ -142,10 +198,11 @@ nav ul li a{
 }
 /* contact us       */
 input{
-    padding: 5% 12%;
+    padding: 2% 12%;
     border-radius: 15px;
     border-style: none;
     font-weight: bolder;
+    color: #087f5b;
 }
 textarea{
     border-style: none;
@@ -164,7 +221,7 @@ textarea{
     /* width: 51%;
     height: 10%; */
     border-bottom-right-radius: 30%;
-    padding: 9% 20% 9% 10%;
+    padding: 3% 12% 3% 8%;
 
 }
 .submit{
